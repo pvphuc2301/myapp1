@@ -1,5 +1,5 @@
-function Mouse(){
-    this.height = 0;
+function Mouse(height){
+    this.height = height;
     this.stomuch = [];
     this.alive = true;
 }
